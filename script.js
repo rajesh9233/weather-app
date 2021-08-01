@@ -46,3 +46,5 @@ form.addEventListener("submit", (e) => {
         getWeatherByLocation(city);
     }
 });
+
+getWeatherByLocation("Chennai")
