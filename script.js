@@ -37,14 +37,15 @@ function toCelsius(K) {
     return Math.floor(K - 273.15);
 }
 
-form.addEventListener("submit", (e) => {
-    e.preventDefault();
+// form.addEventListener("submit", (e) => {
+//     e.preventDefault();
 
-    const city = search.value;
+//     const city = search.value;
+//     if (city) {
+//         getWeatherByLocation(city);
+//     }
+// });
 
-    if (city) {
-        getWeatherByLocation(city);
-    }
-});
-
-getWeatherByLocation("Chennai")
+function onHandleCity(e){
+    console.log(e);
+}
